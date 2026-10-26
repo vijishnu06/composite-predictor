@@ -1,0 +1,20 @@
+{
+  "fibre_strength_mpa": 1750,
+  "fibre_modulus_gpa": 73,
+  "matrix_strength_mpa": 55,
+  "matrix_modulus_gpa": 2.4,
+  "transverse_strength_mpa": 40,
+  "shear_strength_mpa": 60,
+  "k_void_fibre_per_pct": 0.010,
+  "k_void_matrix_per_pct": 0.040,
+  "eta_full_until_vf_pct": 55,
+  "eta_at_70": 0.80,
+  "noise_cov": 0.05,
+  "seed": 42,
+  "n_rows": 2000,
+  "domain": {
+    "fibre_volume_fraction_pct": [20, 65],
+    "void_content_pct": [0, 8],
+    "misalignment_angle_deg": [0, 45]
+  }
+}

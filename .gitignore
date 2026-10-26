@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/uploads/*
+!data/uploads/.gitkeep
+data/literature/papers/*
+!data/literature/papers/.gitkeep
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+Thumbs.db
+.DS_Store
